@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import { reactive, ref } from 'vue'
-</script>
-
 <template>
   <div class="flex gap-10 flex-wrap bg-white rounded-lg">
     <div class="flex flex-1 flex-col justify-center items-center gap-4">

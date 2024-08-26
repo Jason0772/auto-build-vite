@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { reactive, ref } from 'vue'
+import { reactive } from 'vue'
 const objs = [
 
   {
@@ -32,7 +32,6 @@ const objs = [
 const list = reactive(objs.map(i => ({ ...i, show: false })))
 console.log("list", list)
 list[0].show = true
-
 
 </script>
 
