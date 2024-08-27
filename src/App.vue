@@ -10,33 +10,29 @@ import Footer from './components/Footer.vue'
 
 
 </script>
-
 <template>
-  <div>
-    <div class="bg-[#fff] px-20 py-8 shadow-md">
-      <Header class="max-w-[1200px] mx-auto" />
-    </div>
-    <div class="bg-[#f0f0f0] px-20 py-24">
-      <Info class="max-w-[1200px] mx-auto" />
-    </div>
-    <div class="bg-[#f0f0f0] px-20 py-20">
-      <Feature class="max-w-[1200px] mx-auto" />
-    </div>
-    <div class="bg-[#f0f0f0] px-20 py-24">
-      <Code class="max-w-[1200px] mx-auto" />
-    </div>
-    <div class="bg-[#f0f0f0] px-20 py-10">
-      <Say class="max-w-[1200px] mx-auto" />
-    </div>
-    <div class="bg-[#f0f0f0] px-20 py-10">
-      <Ask class="max-w-[1200px] mx-auto" />
-    </div>
-    <div class="bg-[#f0f0f0] px-20 py-10">
-      <Footer class="max-w-[1200px] mx-auto" />
-    </div>
-  </div>
+  <header class="bg-[#fff] px-20 py-8 shadow-md">
+    <Header class="max-w-[1200px] mx-auto" />
+  </header>
+  <main class="bg-[#f0f0f0] px-20 py-24">
+    <Info class="max-w-[1200px] mx-auto" />
+  </main>
+  <main class="bg-[#f0f0f0] px-20 py-20">
+    <Feature class="max-w-[1200px] mx-auto" />
+  </main>
+  <main class="bg-[#f0f0f0] px-20 py-24">
+    <Code class="max-w-[1200px] mx-auto" />
+  </main>
+  <main class="bg-[#f0f0f0] px-20 py-10">
+    <Say class="max-w-[1200px] mx-auto" />
+  </main>
+  <main class="bg-[#f0f0f0] px-20 py-10">
+    <Ask class="max-w-[1200px] mx-auto" />
+  </main>
+  <footer class="bg-[#f0f0f0] px-20 py-10">
+    <Footer class="max-w-[1200px] mx-auto" />
+  </footer>
 </template>
-
 <style scoped>
 .logo {
   height: 6em;
