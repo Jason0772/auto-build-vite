@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import Header from './components/Header.vue'
-import Info from './components/Info.vue'
-import Feature from './components/Feature.vue'
+// import Header from './components/Header.vue'
+// import Info from './components/Info.vue'
+// import Feature from './components/Feature.vue'
 
-import Say from './components/Say.vue'
-import Ask from './components/Ask.vue'
-import Code from './components/Code.vue'
-import Footer from './components/Footer.vue'
+// import Say from './components/Say.vue'
+// import Ask from './components/Ask.vue'
+// import Code from './components/Code.vue'
+// import Footer from './components/Footer.vue'
 
 
 </script>
