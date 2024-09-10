@@ -2,7 +2,6 @@
   <div>
     <NuxtRouteAnnouncer />
     <RouterView />
-    <!-- <NuxtWelcome /> -->
   </div>
 </template>
 
