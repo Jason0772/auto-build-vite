@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Calendar Pad (Pronext Calendar)</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #F0F2F5;
+            /* 更柔和的背景色 */
+            font-family: 'Arial', sans-serif;
+        }
+
+        header {
+            background-color: #FF6F61;
+            /* 主题色 */
+        }
+
+        .cta-button {
+            @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+        }
+
+        .feature-list {
+            @apply list-disc list-inside text-gray-700;
+        }
+
+        .user-review {
+            @apply border border-gray-300 p-4 rounded-lg shadow-md;
+        }
+
+        .gradient-shadow-btn {
+            display: inline-block;
+            padding: 16px 32px;
+            background-image: linear-gradient(to right, #FF6F61, #FF5252);
+            /* 更鲜艳的渐变背景 */
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 6px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .gradient-shadow-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .bgs {
+            background: #FF6F61;
+        }
+
+        h1 {
+            font-size: 4rem;
+            /* 更大的标题字体 */
+            color: white;
+        }
+
+        p {
+            font-size: 1.2rem;
+            /* 更大的正文字体 */
+        }
+
+        footer {
+            background-color: #333;
+            /* 更深的页脚背景色 */
+            color: #fff;
+        }
+
+        footer p {
+            font-size: 0.8rem;
+            /* 更小的页脚字体 */
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header with improved visual design -->
+    <header class="bgs shadow-lg py-6">
+        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h1 class="text-5xl font-bold text-center text-gray-900 mb-4">Pronext Calendar</h1>
+            <p class="text-xl text-white mt-2 text-center">The All-In-One Smart Family Calendar</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+
+        <!-- Hero section with an image and a call-to-action button -->
+        <section class="flex flex-col md:flex-row items-center justify-between">
+            <div class="md:w-1/2 mb-8 md:mb-0">
+                <img src="./imgs/logo.png" class="w-1/3 mb-8" />
+                <p class="text-xl text-gray-700">Centralize everyone's schedules by syncing and displaying their
+                    calendars in one convenient location.</p>
+                <a href="https://chromewebstore.google.com/" id="android"
+                    class="cta-button mt-4 gradient-shadow-btn"><i class="fa-brands fa-android mr-4"></i>Download Now</a>
+                <a href="https://www.apple.com/app-store/" id="ios" class="cta-button mt-4 gradient-shadow-btn">
+                    <i class="fa-brands fa-apple mr-4"></i>Download Now</a>
+            </div>
+            <div class="md:w-1/2">
+                <img src="https://www.skylightframe.com/static/b39edd725a1f5222ea41589e99646c9b/a52e2/cal-details.webp"
+                    alt="Calendar App Preview" class="rounded-lg shadow-lg">
+            </div>
+        </section>
+
+        <!-- Features section with icons -->
+        <section class="mt-20">
+            <h2 class="text-2xl font-bold mb-4">Key Features</h2>
+            <ul class="list-none grid grid-cols-2 gap-4 md:grid-cols-4">
+                <li class="feature-list flex items-center">
+                    <i class="fa-solid fa-square-poll-horizontal mr-2 text-blue-500 text-lg"></i>Family Schedule
+                </li>
+                <li class="feature-list flex items-center">
+                    <i class="fas fa-bell mr-2 text-yellow-500 text-lg"></i>Easy Setup
+                </li>
+                <li class="feature-list flex items-center">
+                    <i class="fas fa-cloud-upload-alt mr-2 text-green-500 text-lg"></i>HD Display
+                </li>
+                <li class="feature-list flex items-center">
+                    <i class="fas fa-calendar-alt mr-2 text-purple-500 text-lg"></i>Chore Chart
+                </li>
+            </ul>
+
+        </section>
+
+        <!-- User review section -->
+        <section class="mt-20">
+            <h2 class="text-2xl font-bold mb-4">What Our Users Say</h2>
+            <div class="user-reviews grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="user-review p-4">
+                    <div class="flex items-start">
+                        <div class="mr-4">
+                            <img src="https://avatars.githubusercontent.com/u/85152154?s=40&v=4" alt="User Avatar 1"
+                                class="rounded-full w-8 h-8 object-cover">
+                        </div>
+                        <div class="flex-1">
+                            <p class="text-sm text-gray-700">"I love how easy it is to use and how it keeps my whole
+                                family organized!"</p>
+                            <p class="text-gray-300 text-sm">- Emily R.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="user-review p-4">
+                    <div class="flex items-start">
+                        <div class="mr-4">
+                            <img src="https://avatars.githubusercontent.com/u/119040050?s=40&v=4" alt="User Avatar 2"
+                                class="rounded-full w-8 h-8 object-cover">
+                        </div>
+                        <div class="flex-1">
+                            <p class="text-sm text-gray-700">"The Chore Chart feature is a game-changer for our family!"
+                            </p>
+                            <p class="text-gray-300 text-sm">- David K.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="user-review p-4">
+                    <div class="flex items-start">
+                        <div class="mr-4">
+                            <img src="https://avatars.githubusercontent.com/u/81902478?s=40&v=4" alt="User Avatar 3"
+                                class="rounded-full w-8 h-8 object-cover">
+                        </div>
+                        <div class="flex-1">
+                            <p class="text-sm text-gray-700">"I was skeptical at first, but this calendar has really
+                                helped us stay organized!"</p>
+                            <p class="text-gray-300 text-sm">- Sarah K.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="user-review p-4">
+                    <div class="flex items-start">
+                        <div class="mr-4">
+                            <img src="https://avatars.githubusercontent.com/u/115442240?s=40&v=4" alt="User Avatar 4"
+                                class="rounded-full w-8 h-8 object-cover">
+                        </div>
+                        <div class="flex-1">
+                            <p class="text-sm text-gray-700">"This calendar is so easy to use and has really helped me
+                                stay on top of my schedule!"</p>
+                            <p class="text-gray-300 text-sm">- ParthibNita.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="user-review p-4">
+                    <div class="flex items-start">
+                        <div class="mr-4">
+                            <img src="https://avatars.githubusercontent.com/u/2152214?s=40&v=4" alt="User Avatar 5"
+                                class="rounded-full w-8 h-8 object-cover">
+                        </div>
+                        <div class="flex-1">
+                            <p class="text-sm text-gray-700">"I love how customizable this calendar is - it's perfect
+                                for my family's needs!"</p>
+                            <p class="text-gray-300 text-sm">- RossBrewster.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="user-review p-4">
+                    <div class="flex items-start">
+                        <div class="mr-4">
+                            <img src="https://avatars.githubusercontent.com/u/69649453?s=40&v=4" alt="User Avatar 6"
+                                class="rounded-full w-8 h-8 object-cover">
+                        </div>
+                        <div class="flex-1">
+                            <p class="text-sm text-gray-700">"This calendar has been a game-changer for our family -
+                                we're so much more organized now!"</p>
+                            <p class="text-gray-300 text-sm">- DevSohan.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white shadow-lg mt-12">
+        <div class="max-w-screen-xl mx-auto py-4 px-4 sm:px-6 lg:px-8">
+            <p class="text-center text-gray-500 text-sm">&copy; 2024 Pronext Calendar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function hideAppropriateButton() {
+            const userAgent = navigator.userAgent;
+            const androidButton = document.getElementById("android");
+            const iosButton = document.getElementById("ios");
+
+            if (/Android/i.test(userAgent)) {
+                iosButton.style.display = "none";
+            } else if (/iPhone|iPad|iPod/i.test(userAgent)) {
+                androidButton.style.display = "none";
+            }
+        }
+
+        // 在页面加载完成后执行此函数
+        window.addEventListener("DOMContentLoaded", hideAppropriateButton);
+    </script>
+
+</body>
+
+</html>
